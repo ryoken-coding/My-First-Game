@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Ley & Lantern: an original isometric RPG prototype about magic, survival and practical problem solving." />
+  <meta name="color-scheme" content="dark" />
+  <title>Ley &amp; Lantern</title>
+  <!-- Relative paths so the site works from any sub-directory (GitHub Pages project sites). -->
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <canvas id="world" role="img" aria-label="Game world. Use the keyboard to move; press Tab for the menu."></canvas>
+  <div id="hud" class="hidden"></div>
+  <div id="prompt" class="hidden" aria-live="polite"></div>
+  <div id="hints" class="hidden"></div>
+  <div id="toasts" aria-live="polite"></div>
+  <div id="dialogue" class="hidden"></div>
+  <div id="panel" class="hidden" role="dialog" aria-modal="true">
+    <div id="card" class="card"></div>
+  </div>
+  <noscript>Ley &amp; Lantern needs JavaScript and an HTML5 canvas. Please enable JavaScript in your browser.</noscript>
+  <script src="./assets/game.js" defer></script>
+</body>
+</html>
